@@ -1,13 +1,65 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js"></script>
+<html lang="es">
+    <head>
+      <title>Trivias</title>
+      <link href="style.css" rel="stylesheet" type="text/css">
+       <meta charset="utf-8">
+    </head>
+<body>
+    <header>
+    <div>
+       <h1>Trivia de Animales</h1>
+      </div> 
+    </header>
+<center><img src="https://www.lavanguardia.com/files/image_948_465/uploads/2019/10/02/5fa53234969ff.jpeg" alt="Animales" width="30%" height="30%"></center> 
+  <div class="container"> 
+      <section>
+          <h3>1. ¿Cuantas patas tienen las arañas? </h3>
+         <ul>
+          <li>
+            <input type="radio" name="1" id="a" onclick="a"> 10
+           </li>
+           <li>
+            <input type="radio" name="1" id="b" onclick="b"> 6
+           </li>
+           <li>
+          <input type="radio" name="1" id="c" onclick="c"> 8 
+       </li>
+        <button id="Respuesta1" onclick="Correcta1()"> Responder</button>
+        </ul>
+        <h3> 2. Animal invertebrado </h3>
+     <ul>
+       <li>
+      <input type="radio" name="2"> Víbora
+      </li>
+      <li>
+      <input type="radio" name="2"> Pulpo
+       </li>
+      <li>
+      <input type="radio" name="2"> Gato 
+       </li>
+        
+       <button id="Respuesta2" onclick="Correcta2()"> Responder</button>
+        </ul>
+        
+      <h3> 3.Anfibio endémico de México </h3>
+     <ul>
+       <li>
+      <input type="radio" name="3" > Ajolote
+      </li>
+      <li>
+      <input type="radio" name="3"> Tritón
+       </li>
+      <li>
+      <input type="radio" name="3"> Salamandra 
+       </li>
+      
+       <button id="Respuesta3" onclick="Correcta3()"> Responder</button>
+  </ul>
+          </section>
+    </div>
+    <script src="main.js">
+    </script>
   </body>
 </html>
+

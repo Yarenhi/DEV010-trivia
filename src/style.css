@@ -1,3 +1,43 @@
-/*
-  Aquí van los estilos
-*/
+body{
+  background-color: #ABEBC6;
+ }
+ header{
+     font-size:2.2rem;
+     
+ }
+ h1{
+  text-align: center;
+ }
+ 
+ ul {
+   list-style-type: none;
+   padding: 0;
+   
+ }
+ 
+ ul li {
+   font-size: 1rem;
+   margin: 1rem 0;
+ }
+ 
+ ul li label {
+   cursor: pointer;
+   
+ }
+ button {
+   background-color: #7b339b;
+   color: #ffffff;
+   border: 1;
+   display: block;
+   width: 20%;
+   cursor: pointer;
+   font-size: 1.1rem;
+   font-family: inherit;
+   padding: 1.1rem;
+ }
+ .box {
+   background-image: url(star.png);
+   background-repeat: no-repeat;
+   background-position: 120px 1em;
+ }
+ 
